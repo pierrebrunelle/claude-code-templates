@@ -1,0 +1,13 @@
+{
+  "mcpServers": {
+    "pixeltable": {
+      "description": "Local Pixeltable developer MCP. Inspect catalogs, apply TableModel schema, and manage pxt services over stdio. Mutation tools can change the selected catalog. Requires uv and Python 3.11+. Official server: https://github.com/pixeltable/mcp-server-pixeltable-developer",
+      "command": "uvx",
+      "args": [
+        "--from",
+        "git+https://github.com/pixeltable/mcp-server-pixeltable-developer.git",
+        "mcp-server-pixeltable-developer"
+      ]
+    }
+  }
+}
